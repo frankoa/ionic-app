@@ -1,0 +1,18 @@
+{
+  "name": "rest-ionic-demo",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#v1.1.0",
+    "ngCordova": "latest",
+    "angular-route": "latest",
+    "angular-moment": "~0.9.0"
+  },
+  "resolutions": {
+    "angular": "~1.4.3"
+  },
+  "dependencies": {
+    "angular-base64": "~2.0.5",
+    "angular-pouchdb": "~2.1.1",
+    "pouchdb-find": "~0.3.5"
+  }
+}

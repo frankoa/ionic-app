@@ -1,0 +1,32 @@
+<ion-side-menus>
+    <ion-pane ion-side-menu-content>
+        <ion-nav-bar align-title="left" class="bar-positive">
+        </ion-nav-bar>
+        <ion-nav-view name="articleContent" animation="slide-left-right"></ion-nav-view>
+    </ion-pane>
+    <ion-side-menu side="left">
+        <a class="item item-avatar" href="#/article/latest">
+            <img src="img/wallabag.png">
+            <h2>Wallabag</h2>
+            <p>Logged as {{ user.username }}</p>
+        </a>
+        <ion-list>
+            <ion-item class="item-icon-left" menu-close ng-href="#/article/unread">
+                <i class="icon ion-flash"></i>
+                Unread
+            </ion-item>
+            <ion-item class="item-icon-left" menu-close ng-href="#/article/favorites">
+                <i class="icon ion-star"></i>
+                Favorites
+            </ion-item>
+            <ion-item class="item-icon-left" menu-close ng-href="#/article/archive">
+                <i class="icon ion-briefcase"></i>
+                Archive
+            </ion-item>
+            <ion-item class="item-icon-left" menu-close ng-href="#/article/tags">
+                <i class="icon ion-bookmark"></i>
+                Tags
+            </ion-item>
+        </ion-list>
+    </ion-side-menu>
+</ion-side-menus>
